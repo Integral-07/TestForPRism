@@ -1,0 +1,12 @@
+output:
+  triage:
+    priority_score: true
+    risk_level: true
+    estimated_review_time: true
+    file_priority_list: true
+  support:
+    review_focus: true
+    breaking_changes: true
+    coverage_drop: true
+custom: |
+  このPRがREADMEのみの変更かどうか確認してください。
